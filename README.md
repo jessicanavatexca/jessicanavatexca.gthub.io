@@ -1,2 +1,2 @@
-# jessicanavatexca.gthub.io
+# jessicanavatexca.github.io
 Prácticas Interfaz de Usuario
