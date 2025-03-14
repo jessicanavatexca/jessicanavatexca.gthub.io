@@ -1,0 +1,138 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+header, nav, footer, main{
+ width: 100%;
+ background-color: #EFE9D5;
+ color:#27445D;
+ padding: 30px;
+ margin-left: auto;
+ margin-right: auto;
+ font-family: Tahoma;
+
+}
+h1, h4{
+ text-align: center;
+ font-family: sans-serif;
+ font-size: 50px;
+}
+h2{
+ color: white
+
+}
+nav{
+ height: 60px;
+ background-color:#497D74;
+}
+nav ul{
+ text-align: center;
+}
+nav ul li{
+ width: 10%;
+ min-width: 120px;
+ list-style-type: none;
+ background-color: #71BBB2;
+ color:#27445D;
+ display: inline-block;
+ margin-left: 10px;
+ margin-left: 10px;
+ padding: 20px;
+ text-align: center;
+ border-radius: 20px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+nav ul li a:link, nav ul li a:visited{
+ color:#D17D98;
+ text-decoration: none;
+
+}
+nav ul li a:hover{
+ color: #56021F;
+}
+nav ul li:hover{
+ background-color: #F4CCE9;
+ width: 120px;
+}
+main{
+ height: auto; 
+    background-color: #EFE9D5;
+}
+section{
+ width: 80%;
+ height: auto;
+ background-color:#497D74 ;
+ padding: 30px;
+ margin-top: 30px;
+ margin-bottom: 30px;
+ margin-left: auto;
+ margin-right: auto;
+ overflow-x: auto;
+ font-size: 14pt;
+}
+h2, p{
+ margin-bottom: 30px;
+}
+table{
+
+}
+#tabla_1{
+ width:80%;
+ margin-left: auto;
+ margin-right: auto;
+
+
+}
+#tabla_1 th, #tabla_1 td, #tabla_2 th, #tabla_2 td, #T3 th, #T3 td{
+ padding-left: 15px;
+ padding-right: 15px;
+ padding-top: 6px;
+ padding-bottom: 6px;
+}
+#tabla_1 th, #tabla_2 th, #T3 th{
+ background-color:#D17D98;
+
+}
+#tabla_1 td{
+ background-color:#EFE9D5;
+}
+#tabla_2{
+ width: 100%;
+ /* border-style: solid;
+ border-color: crimson;*/
+ border: 2px solid crimson;
+ color: white;
+ border-spacing: 10px;
+ border-collapse: collapse;
+    }
+#tabla_ th, #tabla_2 td{
+ border: 2px solid crimson;
+}
+#tabla_2 tbody tr:nth-child(even){
+ background-color: #71BBB2;
+}
+#tabla_2 tbody tr:nth-child(odd){
+ background-color: #27445D; 
+    }
+#T3{
+ width: 80%;
+ margin-left: auto;
+ margin-right: auto;
+ background-color: ;
+}
+#T3 td{
+ height:50px;
+ padding-left: 10px;
+}
+#T3 th{
+ height: 60px;
+}
+#T3 tr:hover{
+ background-color: aqua;
+ color: brown;
+}
+#T3 th, #T3 td{
+ border: 2px solid #27445D;
+} 

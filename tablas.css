@@ -1,0 +1,147 @@
+*{ 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+} 
+header, nav, footer, main{ 
+    width: 100%; 
+    background-color: darkblue; 
+    color: aliceblue; 
+    padding: 30px; 
+    margin-left: auto; 
+    margin-right: auto; 
+} 
+nav{ 
+    height: auto; 
+    background-color: skyblue; 
+} 
+nav ul{ 
+    text-align: center; 
+} 
+nav ul li{ 
+    width: 100px; 
+    min-width: 120px; 
+    list-style-type: none; 
+    background-color: azure; 
+    color:azure; 
+    display: inline-block; 
+    margin-left: 10px; 
+    margin-right: 10px; 
+    padding: 20px; 
+    text-align: center; 
+    border-radius: 20px; 
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+} 
+nav ul li a:link, nav ul li a:visited{ 
+    color: cadetblue; 
+    text-decoration: none; 
+} 
+nav ul li a:hover{ 
+    color: beige; 
+} 
+nav ul li a:hover{ 
+    background-color: darkcyan; 
+     width: 95px; 
+    font-size: 18px; 
+} 
+main{ 
+    height: auto; 
+    background-color: cornsilk; 
+} 
+section{ 
+    width: 80%; 
+    height: auto; 
+    background-color: darkblue; 
+    padding: 30px; 
+    margin-top: 30px; 
+    margin-bottom: 30px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    overflow-x: auto; 
+} 
+h2, p{ 
+    margin-bottom: 30px; 
+} 
+h2{ 
+} 
+    color:aquamarine; 
+table{ 
+        width: 80%; 
+    margin-left: auto; 
+    margin-right: auto; 
+} 
+table{ 
+    color:aliceblue; 
+} 
+#tabla_1{ 
+    width: 80%; 
+    margin-left: auto; 
+    margin-right: auto; 
+} 
+#tabla_1 th, #tabla_1 td, #tabla_2 th, #tabla_2 td, 
+#tabla_3 th, #tabla_3 td{ 
+    padding left: 10px; 
+    padding-right: 10px; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+} 
+#tabla_1 th, #tabla_2 th, #tabla_3 th{ 
+    background-color: cadetblue; 
+    color: beige; 
+    text-align: center; 
+} 
+#tabla_1 td{ 
+    background-color:darkcyan; 
+    color: beige; 
+    text-align: center; 
+} 
+#tabla_2{ 
+    width: 100%; 
+    border-style: solid; 
+    border-color: cornflowerblue; 
+    border: 5px;*/ 
+    border: 5px solid cornflowerblue; 
+    border-spacing: 10px; 
+    border-collapse: collapse; 
+} 
+#tabla_2 th, #tabla_2 td{ 
+     border: 3px solid cornflowerblue; 
+} 
+#tabla_2 tbody tr:nth-child(even){ 
+    background-color: darkolivegreen; 
+    color: beige; 
+    text-align: center; 
+} 
+#tabla_2 tbody tr:nth-child(odd){ 
+    background-color: darkseagreen; 
+    color: beige; 
+    text-align: center; 
+} 
+#tabla_3{ 
+    width: 80%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    background-color: darkseagreen; 
+    border-collapse: collapse; 
+} 
+#tabla_3 th{ 
+    height: 60px; 
+} 
+#tabla_3 td{ 
+    height: 50px; 
+    padding-left: 10px; 
+} 
+#tabla_3 th, #tabla_3 td{ 
+    border: 2px solid green; 
+} 
+#tabla_3 tr:hover{ 
+    background-color: yellow; 
+    color:green; 
+} 
+h1, h6{ 
+    text-align: center; 
+    font-size: 48px; 
+} 
+h6{ 
+    font-size: 18px;
